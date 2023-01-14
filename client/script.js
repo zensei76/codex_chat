@@ -83,9 +83,8 @@ const handleSubmit = async (e) => {
 
   // messageDiv.innerHTML = "..."
   loader(messageDiv);
-
   //fetch data from server -> bot's response
-  const response = await fetch("https://codex-chat-eutc.onrender.com", {
+  const response = await fetch("https://codex-im0y.onrender.com/", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
